@@ -11,6 +11,7 @@
 body {
     background-color: rgb(222, 223, 219);
     place-self: center;
+    display: inline-grid;
 }
 
 header {
