@@ -21,7 +21,7 @@
     body, head, header, div, .casa, .cotenedor, img.instinto1, img.institnto2,, .hola2, .hola3,h2, h3, .footer-conteiner, .footer-conteiner05, .footer-conteiner04, .footer-conteiner03, .footer-conteiner02, .fotter.conteiner01 {
         min-width: 375px;
         width: 600px;
-        background: rgb(221, 190, 16);
+    
         
     }
     
@@ -30,7 +30,7 @@
 @media  screen and (min-width: 768px){
     body, head, header, div, .casa, .cotenedor, img.instinto1, img.institnto2, .hola2, .hola3,h2, h3, .footer-conteiner, .footer-conteiner05, .footer-conteiner04, .footer-conteiner03, .footer-conteiner02, .fotter.conteiner01 {
         width: 750px;
-        background: rgb(221, 190, 16);
+    
 
     }
     
@@ -38,7 +38,6 @@
 
 @media  screen and (min-width: 1024px){
     body, head, header, div, .casa, .cotenedor, img.instinto1, img.institnto2, .hola2, .hola3,h2, h3, .footer-conteiner, .footer-conteiner05, .footer-conteiner04, .footer-conteiner03, .footer-conteiner02, .fotter.conteiner01 {
-        background: rgb(221, 190, 16);
         width: 900px;
     
     }
