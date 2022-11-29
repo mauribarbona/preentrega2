@@ -3,15 +3,51 @@
     place-self: center;
 }
 
-@media screen and (width >= 768px) {
+@media screen and (min-width: 320px) {
+
+    body, head, header, div, .casa, .cotenedor, img.instinto1, img.institnto2,, .hola2, .hola3,h2, h3, .footer-conteiner, .footer-conteiner05, .footer-conteiner04, .footer-conteiner03, .footer-conteiner02, .fotter.conteiner01 {
+        min-width: 320px;
+        width: 600px;
+    }
+
+    img.instito1 {
+        height: 250px;
+
+    }
+}
+
+@media  screen and (min-width: 375px){
+    body, head, header, div, .casa, .cotenedor, img.instinto1, img.institnto2,, .hola2, .hola3,h2, h3, .footer-conteiner, .footer-conteiner05, .footer-conteiner04, .footer-conteiner03, .footer-conteiner02, .fotter.conteiner01 {
+        min-width: 375px;
+        width: 600px;
+    }
     
+}
+
+@media  screen and (min-width: 768px){
+    body, head, header, div, .casa, .cotenedor, img.instinto1, img.institnto2, .hola2, .hola3,h2, h3, .footer-conteiner, .footer-conteiner05, .footer-conteiner04, .footer-conteiner03, .footer-conteiner02, .fotter.conteiner01 {
+        width: 750px;
+        background: #fff;
+
+    }
+    
+}
+
+@media  screen and (min-width: 1024px){
+    body, head, header, div, .casa, .cotenedor, img.instinto1, img.institnto2, .hola2, .hola3,h2, h3, .footer-conteiner, .footer-conteiner05, .footer-conteiner04, .footer-conteiner03, .footer-conteiner02, .fotter.conteiner01 {
+        background: #6e9569;
+        width: 900px;
+        margin: 0 55px 0 55px;
+    }
     
 }
 
 body {
-    background-color: rgb(222, 223, 219);
+    background-color: rgb(221, 190, 16);
     place-self: center;
-    display: inline-grid;
+    display:inline-grid;
+    box-sizing: border-box;
+    
 }
 
 header {
@@ -19,7 +55,7 @@ header {
     outline-style: solid;
     border-radius: 10px;
     border-color: rgb(2, 2, 2);
-    min-width: 650px;
+   
     place-self: center;
     display: inline-table;
 }
@@ -84,7 +120,7 @@ img.instintos1 {
     border-radius: 10px;
     height: 300px;
     align-self: center;
-    min-width: 625px;
+    min-width: 450px;
 }
 
 section.texto {
@@ -92,7 +128,7 @@ section.texto {
     height: 250px;
     padding: 25px;
     display: inline-grid;
-    min-width: 600px;
+    min-width: 500px;
     place-self: center;
 }
 
@@ -251,11 +287,7 @@ section>h4 {
 
 article {
     display: grid;
-    min-width: 650px;
-}
-
-footer {
-    min-width: 650px;
+    
 }
 
 article>form {
@@ -331,6 +363,7 @@ div.footer-conteiner10 {
 }
 p {
     bottom: 1px;
+    margin: 0 65px 0 65px;
 }
 
 h2 {
