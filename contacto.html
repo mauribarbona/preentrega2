@@ -9,18 +9,21 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <!-- fila de logo + nav --> 
-    <header id="mainhearder">
+    <header id="mainhearder" >
+        <div class="contenedor">
+            <div class="logo">
+        <img class="logo" src="THY.jpg">
+        </div>
         <div>
-            <img class="logo" src="THY.jpg">
-          <nav id="navbar">
-            <ul>
+            <nav id="navbar">
+                <ul>
+                    <div class="navbar_li">
                 <li><a class="custom-btn btn-12" href="index.html">
                     <span>Click!</span>
                     <span>Home</span></a></li>
                 <li><a class="custom-btn btn-12" href="historia.html">
                     <span>Click!</span>
-                    <span>Historia</span></a></li>               
+                    <span>Historia</span></a></li>              
                 <li><a class="custom-btn btn-12" href="acercadenosotros.html">
                     <span>Click!</span>
                     <span>Acerca de</span></a></li>                 
@@ -29,22 +32,22 @@
                     <span>Consejos</span></a></li>              
                 <li><a class="custom-btn btn-12" href="contacto.html">
                     <span>Click!</span>
-                    <span>Contacto</span></a></li>             
-            </ul>
-          </nav>
+                    <span>Contacto</span></a></li></div>             
+                </ul>
+            </nav>
+        </div>
         </div>
     </header>
-    
-    <!-- cierre de fila logo + nav -->
-    <!-- fila de información de mi sitio -->
     <section>
         <img class="img contacto" src ="chocolate.jpg">
     </section>
     <section>
-        <h4>Nuestro contacto</h4>
+        <div class="texto9">
+            <h4>Nuestro contacto</h4>
+        </div>
     </section>
 
-    <section>
+    <section class="correo">
         <article>
             <form action="#">
                 <label for="Nombre y Apellido">Completar nombre y apellido
@@ -83,7 +86,8 @@
                         <span>Click!</span>
                         <span>Facebook</span></a></li> 
         </ul
-        ><p class="float-end"><a href="#">Subir</a></p></div>
-     </footer>
+        ><p class="float-end"><a href="#">Subir</a></p>
+    </div>
+    </footer>
 </body>
 </html>
