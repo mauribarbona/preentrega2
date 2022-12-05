@@ -1,87 +1,86 @@
 * {
-    text-align: center;
-    place-self: center;
+    margin: o;
+    padding: 0;
+    background: #ffffff;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 600px) {
 
-    body, head, header, div, .casa, .cotenedor, img.institnto2, .hola2, .hola3,h2, h3, .footer-conteiner, .footer-conteiner05, .footer-conteiner04, .footer-conteiner03, .footer-conteiner02, .fotter.conteiner01 {
+    body, head, header, #mainhearder, .casa,div, .cotenedor, img.institnto2, .hola2, .hola3, h2, h3, .footer-conteiner, .footer-conteiner05, .footer-conteiner04, .footer-conteiner03, .footer-conteiner02, .fotter.conteiner01 {
         min-width: 320px;
-        width : 1000px;
+        flex-direction: column;
+        display: inline-grid;
         
     }
 
-    .instinto1 {
-        height: 250px;
-        width: 600px;
-
-    }
-
-    header#mainheader {
-        width: 1000px;
-    }
-    
-    .texto {
-        margin: 10px;
-    }
-}
-
-@media  screen and (min-width: 375px){
-    body, head, header, div, .casa, .cotenedor, img.institnto2, .hola2, .hola3,h2, h3, .footer-conteiner, .footer-conteiner05, .footer-conteiner04, .footer-conteiner03, .footer-conteiner02, .fotter.conteiner01 {
-        min-width: 375px;
-        width: 800px;
-    }
-    
-    img.instinto1 {
-        height: 250px;
-
-    }
-}
-
-@media  screen and (min-width: 768px){
-    body, head, header, div, .casa, .cotenedor, img.institnto2, .hola2, .hola3,h2, h3, .footer-conteiner, .footer-conteiner05, .footer-conteiner04, .footer-conteiner03, .footer-conteiner02, .fotter.conteiner01 {
-        width: 950px;
-    }
-
-    img.instinto1 {
-        height: 500px;
-        width: 600px;
-    }
-}
-
-@media  screen and (min-width: 1024px){
-    body, head, header, div, .casa, .cotenedor, img.institnto2, .hola2, .hola3,h2, h3, .footer-conteiner, .footer-conteiner05, .footer-conteiner04, .footer-conteiner03, .footer-conteiner02, .fotter.conteiner01 {
-        width: 1000px;
-    }
-
-    img.instinto1 {
-        height: 500px;
-        width: 600px;
+    .btn-12 span {
+        flex-direction: column;
     }
 
     
+
+    
+
+    div.hola>p {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    img.instintos1 {
+        width: 600px;
+        position: relative;
+        border: solid;
+        border-radius: 10px;
+        align-self: center;
+        min-width: 450px;
+    }
+
+    header {
+        width:  100%;
+        background-color: white;
+    }
+
+    #mainhearder {
+        width: 100%;
+        background-color: white;
+    }
+
 }
+
 
 body {
-    background-color: rgb(221, 190, 16);
+    width: 100%;
     place-self: center;
-    display:inline-grid;
+    display:grid;
     box-sizing: border-box;
     
 }
 
 header {
-    background-color: rgb(105, 160, 170);
+    background-color: white;
     outline-style: solid;
     border-radius: 10px;
     border-color: rgb(2, 2, 2);
+    width: 100%;
    
     place-self: center;
-    display: inline-table;
+    display: flex;
+}
+
+div {
+    margin: 5px;
 }
 
 div.contenedor {
-    display: contents;
+    display: flex;
     
 
 }
@@ -93,7 +92,7 @@ section.casa {
 }
 
 .logo {
-    display: inline-block;
+    display: flex;
     width: 60px;
     height: 60px;
     overflow: auto;
@@ -101,6 +100,10 @@ section.casa {
     border: solid;
     border-radius: 15px;
     place-self: center;
+}
+
+header#mainhearder {
+    width: 100%;
 }
  
 
@@ -114,7 +117,7 @@ ul {
 }   
 
 li {
-    display: list-item;
+    display: flex;
     text-align: center;
    
 }
@@ -130,11 +133,12 @@ img.instintos2 {
         top: 20px;
         border: solid;
         border-radius: 10px;
+        margin: 0 260px;
 
 }
 
 img.instintos1 {
-    width: 600px;
+    width: 700px;
     position: relative;
     border: solid;
     border-radius: 10px;
@@ -145,7 +149,7 @@ img.instintos1 {
 
 section.texto {
     color: aliceblue;
-    height: 250px;
+
     padding: 25px;
     display: inline-grid;
     min-width: 500px;
@@ -248,7 +252,7 @@ img.instinto2 {
  }
 
  main.casa {
-    margin: 0 20px 0 20px;
+    margin: 10px 20px 0 20px;
     
 }
 
@@ -296,6 +300,7 @@ img.img.contacto {
     height: 320px;
     top: 50px;
     margin-bottom: 81px;
+    margin: 50px 260px;
 }
 
 section>h4 {
@@ -403,7 +408,7 @@ h2 {
 
 div.footer-conteiner {
     min-width: 600px;
-    background: #a5c1d9;
+    background: #ffffff;
     margin: 25px 0 25px 0;
 }
 
@@ -530,9 +535,10 @@ div.hola1 {
     border-radius: 15px;
     color: #6e9569;
     background-color: #a5c1d9;
+    display: grid;
   }
 
   .float-end>a {
-    padding: 40px;
-    color: #f1f1f0;
+    padding: 20px;
+    color: #b3b334;
   }
